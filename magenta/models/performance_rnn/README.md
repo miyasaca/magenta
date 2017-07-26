@@ -132,6 +132,7 @@ supports a ```--save_generator_bundle``` flag that calls this method. Example:
 ```
 performance_rnn_generate \
   --run_dir=/tmp/performance_rnn/logdir/run1 \
-  --bundle_file=/tmp/performance_rnn.mag \
+  --config=<one of 'performance' or 'performance_with_dynamics'> \
+  --bundle_file=/tmp/performance_rnn.mag \
   --save_generator_bundle
 ```
